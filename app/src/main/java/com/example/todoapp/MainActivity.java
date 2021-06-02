@@ -10,5 +10,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
+    static class Demo{
+        private String name;
+        private float grade;
+        Demo(){
+
+        }
+        Demo(String name, float grade){
+            this.name = name;
+            this.grade = grade;
+        }
+    }
+
 }
