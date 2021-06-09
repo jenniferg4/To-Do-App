@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         mFirebaseAuth = FirebaseAuth.getInstance();
         email = findViewById(R.id.editTextEmailAddress1);
         password = findViewById(R.id.editTextPassword1);
@@ -87,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 openNewActivity();
             }
         });
+=======
+>>>>>>> 1a3810e5f629521c7cf85979f1e7f3d0f47d7041
     }
 
     public void openNewActivity(){
